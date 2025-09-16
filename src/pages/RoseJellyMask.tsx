@@ -26,8 +26,10 @@ function RoseJellyMask() {
                     <div className="w-[330px] lexend-deca-semibold text-4xl text-center">Rawat jerawat dan beruntusan</div>
                     <div className='lexend-deca-regular text-xl text-center'>Melembapkan & mencerahkan</div>
                 </div>
-
-                <img src={produkRjm} alt="Produk Rose Jelly Mask" />
+                
+                <div className='w-[350px] h-[350px]'>
+                    <img src={produkRjm} alt="Produk Rose Jelly Mask" />
+                </div>
 
                 <div className='flex items-center gap-2 lexend-deca-semibold text-base'>
                     <div onClick={() => { window.open("https://vt.tokopedia.com/t/ZSHnu5AtCQqx5-US5C8/") }} className='cursor-pointer flex items-center gap-1 px-3 py-1 bg-black text-white rounded-2xl hover:opacity-70 transition ease-in-out duration-300'>
