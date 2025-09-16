@@ -8,15 +8,41 @@ import centellaAsiatica from '../assets/rjm/centella-asiatica.png';
 import hyaluronicAcid from '../assets/rjm/hyaluronic-acid.png';
 import egMockup from '../assets/rjm/eg-mockup.png';
 import whatsappIcon from '../assets/rjm/whatsapp-icon.png';
+import { useEffect, useState } from 'react';
 
 function RoseJellyMask() {
+
+    const [loading, setLoading] = useState(true);
 
     function handleConsult() {
         window.open('https://wa.me/6287867306822', '_blank');
     }
 
+    useEffect(() => {
+        const timer = setTimeout((() => {
+            setLoading(false);
+        }), 2000);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if(loading) {
+        return (
+            <div className='flex justify-center items-center h-screen bg-white'>
+                <img
+                    src={logoEileenGrace}
+                    alt="Loading..."
+                    className="w-70 opacity-0 animate-fade-in"
+                    style={{
+                        animation:
+                            'fade-in 0.7s ease-in forwards'
+                    }}
+                />
+            </div>
+        )
+    }
+
     return (
-        <div className="flex justify-center w-full">
+        <div className="fade-in flex justify-center w-full">
             <div className="w-full lg:w-1/3 md:w-2/3 flex flex-col gap-0 items-center">
                 <div>
                     <img src={logoEileenGrace} alt="Rose Jelly Mask" className="w-1/2 mx-auto mt-4" />
