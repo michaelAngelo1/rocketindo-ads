@@ -6,12 +6,14 @@ import pomeBfa1 from "../assets/pome/pome_bfa1.jpg";
 import pomeBfa2 from "../assets/pome/pome_bfa2.jpg";
 import pomeBfa3 from "../assets/pome/pome_bfa3.png";
 import buahPome from "../assets/pome/buah_pome.png";
+import pomeHTU1 from "../assets/pome/Pome_HTU_1.png";
+import pomeHTU2 from "../assets/pome/Pome_HTU_2.png";
+import pomeHTU3 from "../assets/pome/Pome_HTU_3.png";
 
 function Pomegranate() {
 
     function handleConsult() {
-        console.log("Consult");
-        // window.open('https://wa.me/6287867306822', '_blank');
+        window.open('https://wa.me/6287789598557', '_blank');
     }
 
     return (
@@ -32,7 +34,7 @@ function Pomegranate() {
 
                 <div className='mt-16 flex items-center gap-2 lexend-deca-semibold text-base'>
                     <div 
-                        onClick={() => { window.open("https://shopee.co.id/EILEEN-GRACE-Moisturize-Rose-Jelly-Mask-300-ml-Masker-Wajah-Jerawat-Bruntus-Bopeng-Bekas-Jerawat-Kemerahan-Skin-Barrier-Mencerahkan-Melembapkan-i.33221984.460504215?sp_atk=6b85ea89-582f-490a-afeb-717f8568c163&xptdk=6b85ea89-582f-490a-afeb-717f8568c163") }} 
+                        onClick={() => { window.open("https://shopee.co.id/POLYNIA-Pomegranate-Revitalizing-Face-Mask-Masker-Anti-Aging-Pudarkan-Kerutan-Garis-Halus-Samarkan-Flek-Hitam-BPOM-i.832362926.18734566734") }} 
                         className='cursor-pointer flex items-center gap-1 px-4 py-2 bg-[#EA501F] text-white rounded-4xl hover:opacity-70 transition ease-in-out duration-300'
                     >
                         <img src={shopeeIcon} alt="Shopee" className='inline w-3' />
@@ -53,7 +55,7 @@ function Pomegranate() {
 
                 <div className='relative flex flex-col gap-8 mt-12 items-center'>
                     <div className='w-[330px] lexend-deca-semibold text-3xl text-center'>Apa kandungan Pomegranate Mask?</div>
-                    <img className='aspect-5/9' src={buahPome} alt="" />
+                    <img fetchPriority='high' className='aspect-5/9' src={buahPome} alt="" />
                     <div className='absolute bottom-2 left-4 flex flex-col gap-0'>
                         <div className='text-4xl text-white lexend-deca-semibold'>Pomegranate Extract</div>
                         <div className='text-4xl text-white lexend-deca-semibold'>Niacinamide</div>
@@ -66,6 +68,27 @@ function Pomegranate() {
 
                 <div className="flex flex-col items-center gap-8 mt-12">
                     <div className='w-[330px] lexend-deca-semibold text-3xl text-center'>Cara pemakaian Pomegranate Mask</div>
+                    <div className='flex gap-3 justify-center'>
+                        <div className='lexend-deca-semibold flex flex-col justify-center items-center gap-2'>
+                            <div className='text-xl'>maks.</div>
+                            <div className='text-4xl text-[#A3242C]'>4x</div>
+                            <div className='text-xl'>seminggu</div>
+                        </div>
+                        <div className='w-3/5 flex flex-col items-center gap-6 lexend-deca-regular'>
+                            <div className='flex gap-3 items-center'>
+                                <img className='w-[100px] rounded-full' src={pomeHTU1} alt="" />
+                                Cuci muka dengan air bersih.
+                            </div>
+                            <div className='flex gap-3 items-center'>
+                                <img className='w-[100px] rounded-full' src={pomeHTU2} alt="" />
+                                Oleskan ke wajah sambil pijat merata
+                            </div>
+                            <div className='flex gap-3 items-center'>
+                                <img className='w-[100px] rounded-full' src={pomeHTU3} alt="" />
+                                Bilas dengan air bersih atau dibawa tidur.
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='flex flex-col items-center gap-6 mt-12 h-[240px]'>
