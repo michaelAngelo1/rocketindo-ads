@@ -76,15 +76,15 @@ function Pomegranate() {
                         </div>
                         <div className='w-3/5 flex flex-col items-center gap-6 lexend-deca-regular'>
                             <div className='flex gap-3 items-center'>
-                                <img className='w-[100px] rounded-full' src={pomeHTU1} alt="" />
+                                <img className='w-[110px] rounded-full' src={pomeHTU1} alt="" />
                                 Cuci muka dengan air bersih.
                             </div>
                             <div className='flex gap-3 items-center'>
-                                <img className='w-[100px] rounded-full' src={pomeHTU2} alt="" />
+                                <img className='w-[110px] rounded-full' src={pomeHTU2} alt="" />
                                 Oleskan ke wajah sambil pijat merata
                             </div>
                             <div className='flex gap-3 items-center'>
-                                <img className='w-[100px] rounded-full' src={pomeHTU3} alt="" />
+                                <img className='w-[110px] rounded-full' src={pomeHTU3} alt="" />
                                 Bilas dengan air bersih atau dibawa tidur.
                             </div>
                         </div>
