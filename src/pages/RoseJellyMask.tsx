@@ -9,6 +9,10 @@ import hyaluronicAcid from '../assets/rjm/hyaluronic-acid.png';
 import egMockup from '../assets/rjm/eg-mockup.png';
 import whatsappIcon from '../assets/rjm/whatsapp-icon.png';
 import { useEffect, useState } from 'react';
+import bfa1 from "../assets/rjm/bfa1_rjm.jpg";
+import bfa2 from "../assets/rjm/bfa2_rjm.jpg";
+import bfa3 from "../assets/rjm/bfa3_rjm.jpg";
+import bfa4 from "../assets/rjm/bfa4_rjm.jpg";
 
 function RoseJellyMask() {
 
@@ -33,8 +37,7 @@ function RoseJellyMask() {
                     alt="Loading..."
                     className="w-70 opacity-0 animate-fade-in"
                     style={{
-                        animation:
-                            'fade-in 0.7s ease-in forwards'
+                        animation: 'fade-in 0.7s ease-in forwards'
                     }}
                 />
             </div>
@@ -58,17 +61,12 @@ function RoseJellyMask() {
                 </div>
 
                 <div className='flex items-center gap-2 lexend-deca-semibold text-base'>
-                    <div onClick={() => { window.open("https://vt.tokopedia.com/t/ZSHnu5AtCQqx5-US5C8/") }} className='cursor-pointer flex items-center gap-1 px-3 py-1 bg-black text-white rounded-2xl hover:opacity-70 transition ease-in-out duration-300'>
-                        <img src={tiktokIcon} alt="TikTok" className='inline w-4' />
-                        TikTok
-                    </div>
-                    <div onClick={() => { window.open("https://shopee.co.id/EILEEN-GRACE-Moisturize-Rose-Jelly-Mask-300-ml-Masker-Wajah-Jerawat-Bruntus-Bopeng-Bekas-Jerawat-Kemerahan-Skin-Barrier-Mencerahkan-Melembapkan-i.33221984.460504215?sp_atk=6b85ea89-582f-490a-afeb-717f8568c163&xptdk=6b85ea89-582f-490a-afeb-717f8568c163") }} className='cursor-pointer flex items-center gap-1 px-3 py-1 bg-[#EA501F] text-white rounded-2xl hover:opacity-70 transition ease-in-out duration-300'>
+                    <div 
+                        onClick={() => { window.open("https://shopee.co.id/EILEEN-GRACE-Moisturize-Rose-Jelly-Mask-300-ml-Masker-Wajah-Jerawat-Bruntus-Bopeng-Bekas-Jerawat-Kemerahan-Skin-Barrier-Mencerahkan-Melembapkan-i.33221984.460504215?sp_atk=6b85ea89-582f-490a-afeb-717f8568c163&xptdk=6b85ea89-582f-490a-afeb-717f8568c163") }} 
+                        className='cursor-pointer flex items-center gap-1 px-4 py-2 bg-[#EA501F] text-white rounded-4xl hover:opacity-70 transition ease-in-out duration-300'
+                    >
                         <img src={shopeeIcon} alt="Shopee" className='inline w-3' />
-                        Shopee
-                    </div>
-                    <div onClick={() => { window.open("https://rocketindo.co.id/products/rose-jelly-mask-300ml") }} className='cursor-pointer flex items-center gap-1 px-3 py-1 bg-transparent border-black text-black border border-2-black rounded-2xl hover:bg-slate-100 transition ease-in-out duration-300'>
-                        <img src={websiteIcon} alt="Website" className='inline w-4' />
-                        Website
+                        Dapatkan di Shopee
                     </div>
                 </div>
                 
@@ -113,6 +111,14 @@ function RoseJellyMask() {
                     </div>
                 </div>
 
+                <div className='flex flex-col gap-10 mt-12 items-center'>
+                    <div className='w-[360px] lexend-deca-semibold text-4xl text-center'>Jerawat hilang dalam dua minggu</div>
+                    <img src={bfa1} alt="BFA 1" />
+                    <img src={bfa2} alt="BFA 2" />
+                    <img src={bfa3} alt="BFA 3" />
+                    <img src={bfa4} alt="BFA 4" />
+                </div>
+
                 <div className="flex flex-col items-center gap-6 mt-12">
                     <div className='w-[330px] lexend-deca-semibold text-4xl text-center'>Kenapa harus Rose Jelly Mask?</div>
                     <div className='w-[330px] lexend-deca-regular text-lg text-center'>Moisturize Rose Jelly Mask sudah terjual lebih dari 1 juta pcs ke seluruh Indonesia.</div>
@@ -121,9 +127,9 @@ function RoseJellyMask() {
                 </div>
 
                 <div className='flex flex-col items-center gap-6 mt-12 h-[240px]'>
-                    <div className='w-[330px] lexend-deca-semibold text-4xl text-center'>Belum yakin? Yuk konsultasi.</div>
+                    <div className='w-[280px] lexend-deca-semibold text-4xl text-center'>Belum yakin? Yuk konsultasi.</div>
                     <div onClick={() => handleConsult()} className='cursor-pointer rounded-full flex gap-1 items-center border-1 border-[#FF5858] p-2'>
-                        <img className='w-5 ml-2' src={whatsappIcon} alt="" />
+                        <img className='w-5 ml-2' src={whatsappIcon} alt="Whatsapp Icon" />
                         <div className='lexend-deca-semibold text-lg text-[#FF5858]'>Apa masalah kulit kamu?</div>
                     </div>
                 </div>
