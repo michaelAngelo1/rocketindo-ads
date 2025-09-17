@@ -45,22 +45,22 @@ function Pomegranate() {
                 <div className='flex flex-col items-center gap-8 mt-12'>
                     <div className='w-[330px] lexend-deca-semibold text-3xl text-center'>Seperti Botox di rumah sendiri</div>
                     <div className='flex flex-col gap-4'>
-                        <img src={pomeBfa1} alt="Pome BFA 1" />
-                        <img src={pomeBfa2} alt="Pome BFA 2" />
-                        <img src={pomeBfa3} alt="Pome BFA 3" />
+                        <img className='aspect-16/9' src={pomeBfa1} alt="Pome BFA 1" />
+                        <img className='aspect-16/9' src={pomeBfa2} alt="Pome BFA 2" />
+                        <img className='aspect-16/9' src={pomeBfa3} alt="Pome BFA 3" />
                     </div>
                 </div>
 
                 <div className='relative flex flex-col gap-8 mt-12 items-center'>
                     <div className='w-[330px] lexend-deca-semibold text-3xl text-center'>Apa kandungan Pomegranate Mask?</div>
-                    <img src={buahPome} alt="" />
+                    <img className='aspect-5/9' src={buahPome} alt="" />
                     <div className='absolute bottom-2 left-4 flex flex-col gap-0'>
-                        <div className='text-4xl text-white lexend-deca-medium'>Pomegranate Extract</div>
-                        <div className='text-4xl text-white lexend-deca-medium'>Niacinamide</div>
-                        <div className='text-4xl text-white lexend-deca-medium'>Vitamin C</div>
-                        <div className='text-4xl text-white lexend-deca-medium'>Tea Tree Extract</div>
-                        <div className='text-4xl text-white lexend-deca-medium'>Plantago Major Seed Extract</div>
-                        <div className='text-4xl text-white lexend-deca-medium'>Vaccinium Myrtillus Fruit Extract</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Pomegranate Extract</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Niacinamide</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Vitamin C</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Tea Tree Extract</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Plantago Major Seed Extract</div>
+                        <div className='text-4xl text-white lexend-deca-semibold'>Vaccinium Myrtillus Fruit Extract</div>
                     </div>
                 </div>
 
