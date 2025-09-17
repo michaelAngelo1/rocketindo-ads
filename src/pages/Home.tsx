@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function Home() {
     return (
