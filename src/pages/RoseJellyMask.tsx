@@ -5,7 +5,7 @@ import bulgarianRose from '../assets/rjm/bulgarian-rose.png';
 import centellaAsiatica from '../assets/rjm/centella-asiatica.png';
 import hyaluronicAcid from '../assets/rjm/hyaluronic-acid.png';
 import egMockup from '../assets/rjm/eg-mockup.png';
-import whatsappIcon from '../assets/rjm/whatsapp-icon.png';
+import whatsappIconGreen from '../assets/rjm/whatsapp-icon-green.png';
 import { useEffect, useState } from 'react';
 import bfa1 from "../assets/rjm/bfa1_rjm.jpg";
 import bfa2 from "../assets/rjm/bfa2_rjm.jpg";
@@ -126,9 +126,9 @@ function RoseJellyMask() {
 
                 <div className='flex flex-col items-center gap-6 mt-12 h-[240px]'>
                     <div className='w-[280px] lexend-deca-semibold text-4xl text-center'>Belum yakin? Yuk konsultasi.</div>
-                    <div onClick={() => handleConsult()} className='cursor-pointer rounded-full flex gap-1 items-center border-1 border-[#FF5858] p-2'>
-                        <img className='w-5 ml-2' src={whatsappIcon} alt="Whatsapp Icon" />
-                        <div className='lexend-deca-semibold text-lg text-[#FF5858]'>Apa masalah kulit kamu?</div>
+                    <div onClick={() => handleConsult()} className='cursor-pointer rounded-full flex gap-1 items-center border-1 border-[#25D366] p-2'>
+                        <img className='w-5 ml-2' src={whatsappIconGreen} alt="Whatsapp Icon" />
+                        <div className='lexend-deca-semibold text-lg text-[#25D366]'>Apa masalah kulit kamu?</div>
                     </div>
                 </div>
 
