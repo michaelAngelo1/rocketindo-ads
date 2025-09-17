@@ -23,7 +23,7 @@ function RoseJellyMask() {
     useEffect(() => {
         const timer = setTimeout((() => {
             setLoading(false);
-        }), 2000);
+        }), 1500);
         return () => clearTimeout(timer);
     }, []);
 
@@ -33,7 +33,7 @@ function RoseJellyMask() {
                 <img
                     src={logoEileenGrace}
                     alt="Loading..."
-                    className="w-70 opacity-0 animate-fade-in"
+                    className="w-64 opacity-0 animate-fade-in"
                     style={{
                         animation: 'fade-in 0.7s ease-in forwards'
                     }}

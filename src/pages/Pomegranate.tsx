@@ -1,4 +1,5 @@
 import logoPolyniaBlack from '../assets/pome/logo_polynia_black.png';
+import logoPolyniaWhite from '../assets/pome/polynia_logo_white.png';
 import shopeeIcon from '../assets/rjm/shopee-icon.png';
 import produkPome from '../assets/pome/pome_produk.png';
 import whatsappIconGreen from '../assets/rjm/whatsapp-icon-green.png';
@@ -9,12 +10,39 @@ import buahPome from "../assets/pome/buah_pome.png";
 import pomeHTU1 from "../assets/pome/Pome_HTU_1.png";
 import pomeHTU2 from "../assets/pome/Pome_HTU_2.png";
 import pomeHTU3 from "../assets/pome/Pome_HTU_3.png";
+import { useEffect, useState } from 'react';
 
 function Pomegranate() {
+
+    const [loading, setLoading] = useState(true);
 
     function handleConsult() {
         window.open('https://wa.me/6287789598557', '_blank');
     }
+
+    useEffect(() => {
+        const timer = setTimeout((() => {
+            setLoading(false);
+        }), 1500);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if(loading) {
+        return (
+            <div className='flex justify-center items-center h-screen bg-[#A3242C]'>
+                <img
+                    src={logoPolyniaWhite}
+                    alt="Loading..."
+                    className="w-70 opacity-0 animate-fade-in"
+                    style={{
+                        animation: 'fade-in 0.7s ease-in forwards'
+                    }}
+                />
+            </div>
+        )
+    }
+
+    
 
     return (
         <div className="fade-in flex justify-center w-full">
