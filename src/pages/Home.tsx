@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { Analytics } from "@vercel/analytics/next";
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <div className="flex gap-2">Go to 
                 <Link className="underline cursor-pointer" to="/polynia-pomegranate">Polynia Pomegranate</Link>
             </div>
+            <Analytics/>
         </div>
     )
 }
