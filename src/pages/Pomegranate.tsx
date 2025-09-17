@@ -44,7 +44,7 @@ function Pomegranate() {
 
     
 
-    return (
+    return ( 
         <div className="fade-in flex justify-center w-full">
             <div className="w-full lg:w-1/3 md:w-2/3 flex flex-col gap-0 items-center">
                 <div>
