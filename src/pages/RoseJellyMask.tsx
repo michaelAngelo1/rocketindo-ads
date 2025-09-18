@@ -112,11 +112,7 @@ function RoseJellyMask() {
 
                 <div className='flex flex-col gap-10 mt-12 items-center'>
                     <div className='w-[360px] lexend-deca-semibold text-4xl text-center'>Jerawat hilang dalam dua minggu</div>
-                    <TransformWrapper minScale={1}>
-                        <TransformComponent>
-                            <img src={bfa1} alt="BFA 1" />
-                        </TransformComponent>
-                    </TransformWrapper>
+                    <img src={bfa1} alt="BFA 1" />
                     <img src={bfa2} alt="BFA 2" />
                     <img src={bfa3} alt="BFA 3" />
                     <img src={bfa4} alt="BFA 4" />
