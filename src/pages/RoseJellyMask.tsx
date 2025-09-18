@@ -97,13 +97,13 @@ function RoseJellyMask() {
                 <div className='flex flex-col gap-10 mt-4'>
                     <div className='w-[330px] lexend-deca-semibold text-4xl text-center'>Apa saja manfaat Rose Jelly Mask?</div>
                     <div className='relative lexend-deca-semibold m-auto w-[330px] h-[330px] text-white'>
-                        <div className='text-center text-lg absolute top-3 left-0 w-[180px] h-[180px] bg-[#FF5858] rounded-full flex justify-center items-center'>
+                        <div className='transition-all duration-300 ease-in-out hover:scale-110 text-center text-lg absolute top-3 left-0 w-[180px] h-[180px] bg-[#FF5858] rounded-full flex justify-center items-center'>
                             Merawat jerawat dan bekasnya
                         </div>
-                        <div className='text-center text-lg absolute top-16 right-0 w-[150px] h-[150px] bg-[#FF5858] rounded-full flex justify-center items-center'>
+                        <div className='transition-all duration-300 ease-in-out hover:scale-110 text-center text-lg absolute top-16 right-0 w-[150px] h-[150px] bg-[#FF5858] rounded-full flex justify-center items-center'>
                             Menenangkan kulit
                         </div>
-                        <div className='text-center text-lg absolute top-46 right-26 w-[150px] h-[150px] bg-[#FF5858] rounded-full flex justify-center items-center'>
+                        <div className='transition-all duration-300 ease-in-out hover:scale-110 text-center text-lg absolute top-46 right-26 w-[150px] h-[150px] bg-[#FF5858] rounded-full flex justify-center items-center'>
                             Menghidrasi kulit
                         </div>
                     </div>
