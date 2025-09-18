@@ -11,7 +11,6 @@ import bfa1 from "../assets/rjm/bfa1_rjm.jpg";
 import bfa2 from "../assets/rjm/bfa2_rjm.jpg";
 import bfa3 from "../assets/rjm/bfa3_rjm.jpg";
 import bfa4 from "../assets/rjm/bfa4_rjm.jpg";
-import { TransformComponent, TransformWrapper } from 'react-zoom-pan-pinch';
 
 function RoseJellyMask() {
 
