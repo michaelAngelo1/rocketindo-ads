@@ -12,9 +12,9 @@ function Home() {
             <div className="flex gap-2">Go to 
                 <Link className="underline cursor-pointer" to="/polynia-pomegranate">Polynia Pomegranate</Link>
             </div>
-            <div className="flex gap-2">Go to 
+            {/* <div className="flex gap-2">Go to 
                 <Link className="underline cursor-pointer" to="/polynia-orange">Polynia Orange</Link>
-            </div>
+            </div> */}
             <Analytics/>
         </div>
     )

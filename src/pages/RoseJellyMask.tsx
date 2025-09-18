@@ -11,6 +11,7 @@ import bfa1 from "../assets/rjm/bfa1_rjm.jpg";
 import bfa2 from "../assets/rjm/bfa2_rjm.jpg";
 import bfa3 from "../assets/rjm/bfa3_rjm.jpg";
 import bfa4 from "../assets/rjm/bfa4_rjm.jpg";
+import { TransformComponent, TransformWrapper } from 'react-zoom-pan-pinch';
 
 function RoseJellyMask() {
 
@@ -111,7 +112,11 @@ function RoseJellyMask() {
 
                 <div className='flex flex-col gap-10 mt-12 items-center'>
                     <div className='w-[360px] lexend-deca-semibold text-4xl text-center'>Jerawat hilang dalam dua minggu</div>
-                    <img src={bfa1} alt="BFA 1" />
+                    <TransformWrapper>
+                        <TransformComponent>
+                            <img src={bfa1} alt="BFA 1" />
+                        </TransformComponent>
+                    </TransformWrapper>
                     <img src={bfa2} alt="BFA 2" />
                     <img src={bfa3} alt="BFA 3" />
                     <img src={bfa4} alt="BFA 4" />
